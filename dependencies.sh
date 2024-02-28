@@ -57,7 +57,19 @@ sudo mysql
 
 	exit;
 
+##################################### Github ###########################################
 
+# add ssh
+ssh-keygen -t rsa -C "xiaozhangslp@gmail.com"
 
+# if I set the name into github, it will generate into the project file!!!!!!!
 
+eval "$(ssh-agent -s)"
 
+ssh-add -K ~/.ssh/id_rsa
+
+# /root/.ssh/id_rsa)
+cat ~/.ssh/id_rsa.pub
+
+# token generated from the Github
+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
