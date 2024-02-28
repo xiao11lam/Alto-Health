@@ -49,6 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @link		https://codeigniter.com/user_guide/libraries/uri.html
  */
 
+#[\AllowDynamicProperties]
 class CI_URI {
 
 	/**
